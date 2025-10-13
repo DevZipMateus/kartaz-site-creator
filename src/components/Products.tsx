@@ -9,6 +9,9 @@ import receituarios from "@/assets/produtos/receituarios.png";
 import fichas from "@/assets/produtos/fichas.png";
 import pastas from "@/assets/produtos/pastas.png";
 import rifas from "@/assets/produtos/rifas.png";
+import windBanner from "@/assets/produtos/wind-banner.png";
+import ripados from "@/assets/produtos/ripados.png";
+import pisoVinilico from "@/assets/produtos/piso-vinilico.png";
 
 const Products = () => {
   const products = [
@@ -61,6 +64,21 @@ const Products = () => {
       title: "Rifas",
       image: rifas,
       description: "Rifas numeradas e personalizadas"
+    },
+    {
+      title: "Wind banner",
+      image: windBanner,
+      description: "Wind banners para divulgação externa"
+    },
+    {
+      title: "Painéis ripados",
+      image: ripados,
+      description: "Painéis ripados para decoração de ambientes"
+    },
+    {
+      title: "Piso vinílico clicado",
+      image: pisoVinilico,
+      description: "Pisos vinílicos clicados para transformar seu ambiente"
     }
   ];
 
