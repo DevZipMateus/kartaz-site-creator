@@ -49,9 +49,11 @@ const Testimonials = () => {
                   </div>
                 </div>
 
-                <blockquote className="text-base md:text-lg text-foreground/80 leading-relaxed mb-6 flex-grow">
-                  "{testimonial.text}"
-                </blockquote>
+                {!testimonial.image && (
+                  <blockquote className="text-base md:text-lg text-foreground/80 leading-relaxed mb-6 flex-grow">
+                    "{testimonial.text}"
+                  </blockquote>
+                )}
 
                 {testimonial.image && (
                   <div className="mb-6">
