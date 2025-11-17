@@ -83,7 +83,7 @@ const Services = () => {
 
                 <div className="mt-6 pt-6 border-t border-border">
                   <p className="text-sm text-foreground/60">
-                    {index === 0 && "Instalação dos adesivos produzidos quando necessário"}
+                    {index === 0 && "Desenvolvemos sua arte"}
                     {index === 1 && "Tudo personalizado conforme o gosto do cliente"}
                     {index === 2 && "Instalação profissional incluída"}
                   </p>
