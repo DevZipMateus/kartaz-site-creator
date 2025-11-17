@@ -22,12 +22,11 @@ const Services = () => {
       title: "Adesivos",
       description: "Adesivos personalizados para todas as necessidades",
       items: [
-        "Adesivos de recorte eletrônico",
-        "Adesivos digitais",
-        "Recorte especial",
+        "Adesivos digitais com ou sem recorte especial",
+        "Adesivos microperfurados",
         "Campanhas e divulgações",
-        "Sinalizações",
-        "Decoração de vitrines"
+        "Placas com sinalizações diversos segmentos",
+        "Banners, faixas e lonas"
       ],
       color: "bg-accent/10 text-accent"
     },
@@ -84,7 +83,7 @@ const Services = () => {
                 <div className="mt-6 pt-6 border-t border-border">
                   <p className="text-sm text-foreground/60">
                     {index === 0 && "Desenvolvemos sua arte"}
-                    {index === 1 && "Tudo personalizado conforme o gosto do cliente"}
+                    {index === 1 && "Tudo personalizado ao gosto do cliente"}
                     {index === 2 && "Instalação profissional incluída"}
                   </p>
                 </div>
