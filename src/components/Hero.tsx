@@ -49,12 +49,12 @@ const Hero = () => {
             />
           </div>
           
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            KARTAZ Gráfica
+          <h1 className="sr-only">
+            KARTAZ Gráfica - Adesivos e ripados
           </h1>
           
-          <h2 className="text-2xl md:text-3xl lg:text-4xl text-foreground/80 mb-8 font-medium">
-            Adesivos e ripados
+          <h2 className="sr-only">
+            Serviços gráficos, adesivos personalizados e painéis ripados de alta qualidade
           </h2>
           
           <p className="text-xl md:text-2xl text-foreground/70 mb-12 max-w-3xl mx-auto leading-relaxed">
